@@ -7,7 +7,7 @@
 
 ### 接口与参数
 
-接口的 base_url 为 'http://news.baidu.com/n?m=rddata&v=hot_word',
+接口的 `base_url` 为 http://news.baidu.com/n?m=rddata&v=hot_word,
 
 带两个参数
 
