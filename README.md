@@ -16,7 +16,7 @@
 
 ### 使用 requests 抓取关键词数据:
 
-```
+```python
 import requests
 from bs4 import BeautifulSoup
 import urllib
@@ -78,7 +78,7 @@ http://news.baidu.com/n?m=rddata&v=hot_word&type=0
 
 日期格式为 YYYYMMDD，如 20160703
 
-```
+```python
 hot_type = '2'
 hot_date = '20160705'
 
@@ -135,7 +135,7 @@ http://news.baidu.com/n?m=rddata&v=hot_word&type=2&date=20160705
 
 基本url为 http://news.baidu.com/ns?tn=news ,接参数word为 JSON 数据的 query_word 字段。
 
-```
+```python
 query_word = '43人中国旅行团护照在瑞典被抢'    
 news_base_url = 'http://news.baidu.com/ns?tn=news'
 
